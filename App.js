@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     padding: 10,
-    paddingTop: 40,
+    paddingTop: 50,
     textAlign: 'center',
   },
   row: {
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#1F3243',
     borderColor: '#1F3243',
-    borderRadius: 25,
+    borderRadius: 50,
     borderWidth: 1,
     justifyContent: 'center',
     height: 70,
@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
   names: {
     color: '#122737',
     fontSize:18,
+    fontWeight: 'bold',
   },
   address: {
     color: '#3C4F62',
@@ -93,13 +94,4 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontStyle:'italic',
   },
-  date: {
-    fontSize: 12,
-    marginBottom: 5,
-  },
-  price: {
-    color: '#1cad61',
-    fontSize: 25,
-    fontWeight: 'bold',
-  }
 });
